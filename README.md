@@ -1,12 +1,19 @@
-# 🛡️ ThreatShield AI – Unified Cyber Threat Detection System
+# 🛡️ ThreatShield AI Suite – Unified Cyber Threat Detection System
 
 ThreatShield AI is an intelligent cybersecurity platform designed to detect phishing and malicious content across multiple formats including **Emails, URLs, SMS, and Images**.  
 
 Powered by **Machine Learning** and **Natural Language Processing (NLP)**, it provides real-time threat analysis to help users stay protected from evolving cyber attacks.
 
+## 🎯 Project Motivation
+
+With the increasing number of phishing attacks, it becomes difficult for users to identify malicious emails.  
+
+This project was developed to explore how Machine Learning can be used to detect phishing content and improve cybersecurity awareness.  
+
+It also serves as a hands-on implementation of NLP and classification algorithms.
 ---
 
-## 🚀 Key Features
+## 🚀 Core Functionalities
 
 - 🔍 **Multi-Channel Threat Detection**  
   Supports Email (current), scalable to URL, SMS, and Image analysis  
@@ -106,7 +113,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 🧪 How It Works
+## 🧪 Working Pipeline
 
 1. User inputs content (currently Email)  
 2. Text is preprocessed using NLP techniques  
@@ -116,7 +123,7 @@ http://127.0.0.1:5000/
 
 ---
 
-## 📊 Model Information
+## 📊 Model Details
 
 - Algorithm: Logistic Regression / Naive Bayes  
 - Feature Extraction: TF-IDF  
@@ -129,7 +136,13 @@ http://127.0.0.1:5000/
 - Personal email security  
 - Enterprise threat detection systems  
 - Cybersecurity awareness tools  
-- Future integration with browsers and messaging apps  
+- Future integration with browsers and messaging apps
+
+## ⚠️ Current Limitations
+
+- Works primarily on text-based email content  
+- Accuracy depends on dataset quality  
+- Does not yet support real-time email integration  
 
 ---
 
@@ -151,6 +164,12 @@ http://127.0.0.1:5000/
 - Abhay Pratap  
 
 ---
+## 📘 What We Learned
+
+- Implementation of Machine Learning models for classification  
+- Use of NLP techniques like TF-IDF  
+- Building a full-stack ML project using Flask  
+- Understanding real-world phishing patterns  
 
 ## 🤝 Contributing
 
@@ -162,6 +181,9 @@ Feel free to fork the repository and submit pull requests.
 ## 📜 License
 
 This project is open-source and available under the MIT License.
+
+**Version:** 1.0  
+**Status:** Under Development  
 
 ---
 
